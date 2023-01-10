@@ -1,0 +1,80 @@
+.homeContainer {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 227, 227);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.mainbox {
+    padding-left: 220px;
+}
+
+.reviewbox {  
+    margin: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 800px;
+    padding-left: 20px;
+}
+
+.reviewHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviewImage {
+    margin: 20px;
+}
+
+.reviewImage img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.username {
+    margin-top: 35px;
+}
+
+.reviewbody {
+    margin: 0 50px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.reviewText {
+    height: 30px;
+    width: 500px;
+    margin: 10px 150px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(81, 81, 81);
+}
+
+#postbutton {
+    background-color: rgb(139, 35, 58);
+    color: #fff;
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    float: right;
+    border: .5px solid rgb(111, 28, 46);
+    border-radius: 10px;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    box-shadow: 0px 0px 2px rgb(139, 35, 58);
+    border:1px solid rgb(139, 35, 58);
+}
+
+

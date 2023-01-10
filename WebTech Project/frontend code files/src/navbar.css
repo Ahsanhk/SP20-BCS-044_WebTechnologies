@@ -1,0 +1,36 @@
+.headerContainer {
+    background-color: rgb(109, 21, 40);
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 10rem 1fr 2fr 2fr 10rem;
+}
+
+.logo {
+    grid-column: 2/3;
+}
+
+.options {
+    grid-column: 3/4;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+
+.options small {
+    color: #fff;
+    font-size: medium;
+}
+
+.options a {
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.options :active {
+    background-color: rgb(161, 55, 78);
+}
+
+
